@@ -72,21 +72,7 @@ public class NumberTriangle {
     }
 
 
-    /**
-     * Follow path through this NumberTriangle structure ('l' = left; 'r' = right) and
-     * return the root value at the end of the path. An empty string will return
-     * the root of the NumberTriangle.
-     *
-     * You can decide if you want to use a recursive or an iterative approach in your solution.
-     *
-     * You can assume that:
-     *      the length of path is less than the height of this NumberTriangle structure.
-     *      each character in the string is either 'l' or 'r'
-     *
-     * @param path the path to follow through this NumberTriangle
-     * @return the root value at the location indicated by path
-     *
-     */
+
     public int retrieve(String path) {
         NumberTriangle cur = this;
         if (path == null) {return root;}
